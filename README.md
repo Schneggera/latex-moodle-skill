@@ -1,4 +1,4 @@
-# latex-moodle-plugin
+# latex-moodle
 
 A Claude Code plugin that converts LaTeX quiz files to [Moodle GIFT format](https://docs.moodle.org/en/GIFT_format).
 
@@ -35,11 +35,20 @@ Supported question types:
 
 ## Installation
 
-Install locally:
+### Via marketplace (recommended)
+
+First add this repo as a marketplace, then install the plugin by name:
+
+```bash
+claude marketplace add Schneggera/latex-moodle-skill
+claude plugin install latex-moodle
+```
+
+### Locally
 
 ```bash
 git clone https://github.com/Schneggera/latex-moodle-skill
-claude plugin install ./plugins/latex-moodle-plugin
+claude plugin install ./latex-moodle-skill/plugins/latex-moodle
 ```
 
 ## Usage
@@ -64,6 +73,8 @@ The output file is written to the same directory with a `.gift` extension (e.g. 
 ::Quiz N, Q<i>:: <question text>
 {TRUE}
 ```
+
+`{FALSE}` is used when False is the correct answer.
 
 ### Single correct answer
 

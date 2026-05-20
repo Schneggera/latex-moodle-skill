@@ -1,12 +1,12 @@
 {
-  "name": "latex-moodle-plugin",
+  "name": "latex-moodle",
   "owner": {
     "name": "Tobias"
   },
   "plugins": [
     {
-      "name": "latex-moodle-plugin",
-      "source": "./plugins/latex-moodle-plugin",
+      "name": "latex-moodle",
+      "source": "./plugins/latex-moodle",
       "description": "Converts LaTeX files to Moodle GIFT format"
     }
   ]
