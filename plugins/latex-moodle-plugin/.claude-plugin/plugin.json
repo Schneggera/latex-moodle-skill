@@ -1,0 +1,8 @@
+{
+  "name": "latex-moodle-plugin",
+  "description": "Convert LaTeX quiz files to Moodle GIFT format",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tobias"
+  }
+}
