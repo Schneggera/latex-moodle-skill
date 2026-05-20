@@ -40,8 +40,8 @@ Supported question types:
 First add this repo as a marketplace, then install the plugin by name:
 
 ```bash
-claude marketplace add Schneggera/latex-moodle-skill
-claude plugin install latex-moodle
+/plugin marketplace add Schneggera/latex-moodle-skill
+/plugin install latex-moodle
 ```
 
 ### Locally
