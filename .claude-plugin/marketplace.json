@@ -7,7 +7,8 @@
     {
       "name": "latex-moodle",
       "source": "./plugins/latex-moodle",
-      "description": "Converts LaTeX files to Moodle GIFT format"
+      "description": "Converts LaTeX files to Moodle GIFT format",
+      "version": "2026-07"
     }
   ]
 }
